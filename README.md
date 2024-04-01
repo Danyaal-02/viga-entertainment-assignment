@@ -3,7 +3,7 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/project.git
+   git clone https://github.com/Danyaal-02/viga-entertainment-assignment.git
    ```
 
 2. Navigate to the project directory:
@@ -30,7 +30,7 @@
 
 ## API Documentation
 
-The API documentation can be accessed at `/api-docs` endpoint. For example, if your server is running locally, you can access it at `http://localhost:yourport/api-docs`.
+The Swagger page can be accessed at `/api-docs` endpoint. For example, if your server is running locally, you can access it at `http://localhost:yourport/api-docs`.
 
 - Add or change database details in .env file.
     
