@@ -25,11 +25,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Routes
-app.get('/', (req, res) => res.status(200).send('Welcome To Food Delivery App'));
+app.use("/", swaggerServe, swaggerSetup);
 app.use('/organization', organizationRouter);
 app.use('/item', itemRouter);
 app.use('/pricing', pricingRouter);
-app.use("/api-docs", swaggerServe, swaggerSetup);
 
 // Start server
 const PORT = process.env.SERVER_PORT || 3000;
